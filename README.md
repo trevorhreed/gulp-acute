@@ -6,7 +6,9 @@
 
 ## Install
 
-...
+```
+npm install --save-dev gulp-acute
+```
 
 
 ## Usage
