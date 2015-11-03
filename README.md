@@ -1,4 +1,4 @@
-# gulp-angular-template
+# gulp-acute
 
 > Compiles HTML content into an AngularJS module using the $templateCache service.
 
