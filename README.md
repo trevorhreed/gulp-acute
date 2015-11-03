@@ -26,3 +26,5 @@ gulp.task('default', function () {
     .pipe(gulp.dest('public'));
 });
 ```
+
+### API
