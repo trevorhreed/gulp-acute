@@ -1,5 +1,5 @@
 {
-  "name": "gulp-angular-template",
+  "name": "gulp-acute",
   "version": "0.1.0",
   "description": "Compiles HTML content into an AngularJS module using the $templateCache service.",
   "main": "index.js",
