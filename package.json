@@ -1,0 +1,30 @@
+{
+  "name": "gulp-angular-template",
+  "version": "0.1.0",
+  "description": "Compiles HTML content into an AngularJS module using the $templateCache service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "..."
+  },
+  "keywords": [
+    "gulp",
+    "angular",
+    "angularjs",
+    "template",
+    "$templateCache"
+  ],
+  "author": "Trevor Reed",
+  "license": "MIT",
+  "dependencies": {
+    "event-stream": "^3.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-footer": "^1.0.5",
+    "gulp-header": "^1.7.1",
+    "gulp-util": "^3.0.7",
+    "js-string-escape": "^1.0.0"
+  }
+}
