@@ -17,4 +17,12 @@ npm install --save-dev gulp-acute
 
 ## Usage
 
-...
+```js
+var acute = require('acute');
+
+gulp.task('default', function () {
+  return gulp.src('templates/**/*.html')
+    .pipe(acute())
+    .pipe(gulp.dest('public'));
+});
+```
