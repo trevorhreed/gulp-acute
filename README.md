@@ -34,7 +34,7 @@ gulp.task('default', function () {
 });
 ```
 
-**/path/to/file.html***
+**/path/to/file.html**
 ```html
 <h1>Hello World!</h1>
 ```
