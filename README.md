@@ -34,6 +34,24 @@ gulp.task('default', function () {
 });
 ```
 
+**main.js**
+
+```html
+<!doctype html>
+<html>
+  <body>
+    <script src="angular.js"></script>
+    <script src="templates.js"></script>
+    <script>
+      var app = angular.module('app', ['templates']);
+      app.controller('main', function($scope, $templateCache){
+        $templateCache.get('html-file-path.html');
+      });
+    </script>
+  </body>
+</html>
+```
+
 ## API
 
 Coming soon.
