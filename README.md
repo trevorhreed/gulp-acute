@@ -34,18 +34,26 @@ gulp.task('default', function () {
 });
 ```
 
+**/path/to/file.html***
+```html
+<h1>Hello World!</h1>
+```
+
 **main.js**
 
 ```html
 <!doctype html>
 <html>
-  <body>
+  <body ng-app="app" ng-controller="main">
+  
+    <div ng-include="template"></div>
+  
     <script src="angular.js"></script>
     <script src="templates.js"></script>
     <script>
       var app = angular.module('app', ['templates']);
-      app.controller('main', function($scope, $templateCache){
-        $templateCache.get('html-file-path.html');
+      app.controller('main', function($scope){
+        $scope.template = "/path/to/file.html";
       });
     </script>
   </body>
