@@ -20,16 +20,20 @@ npm install --save-dev gulp-acute
 
 ## Usage
 
+**gulpfile.js**
+
+> Adds the content of each HTML file under the current directory to the Angular `[$templateCache](https://docs.angularjs.org/api/ng/service/$templateCache)` by compiling the content into a single JavaScript file.
+
 ```js
 var acute = require('acute');
 
 gulp.task('default', function () {
-  return gulp.src('templates/**/*.html')
+  return gulp.src('./**/*.html')
     .pipe(acute())
     .pipe(gulp.dest('public'));
 });
 ```
 
-#### API
+## API
 
 Coming soon.
