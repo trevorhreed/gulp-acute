@@ -22,7 +22,7 @@ npm install --save-dev gulp-acute
 
 **gulpfile.js**
 
-> Adds the content of each HTML file under the current directory to the Angular `[$templateCache](https://docs.angularjs.org/api/ng/service/$templateCache)` by compiling the content into a single JavaScript file.
+> Creates a file at `./public/templates.js`, which contains the AngularJS code to add the content of all HTML files under the current directory to the `[$templateCache](https://docs.angularjs.org/api/ng/service/$templateCache)`. The cached HTML content will be availabe in an Angular module named `templates`.
 
 ```js
 var acute = require('acute');
