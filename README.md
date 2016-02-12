@@ -62,4 +62,4 @@ gulp.task('default', function () {
 
 ## API
 
-Coming soon.
+Coming eventually. Ping me if you're impatient.
